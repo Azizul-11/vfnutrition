@@ -1,12 +1,14 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
-import img1 from '../assets/eximage1.jpg';
-import img2 from '../assets/eximage2.jpg';
-import img3 from '../assets/eximage3.jpg';
-import img4 from '../assets/eximage5.jpg';
-import img5 from '../assets/eximage6.jpg';
-import img6 from '../assets/eximage7.jpg';
+import img1 from '../assets/one.jpeg';
+import img2 from '../assets/two.jpeg';
+import img3 from '../assets/three.jpeg';
+import img4 from '../assets/four.jpeg';
+import img5 from '../assets/five.jpeg';
+import img6 from '../assets/six.jpeg';
+import img7 from '../assets/seven.jpeg';
+import img8 from '../assets/eight.jpeg';
 
 
 
@@ -14,27 +16,35 @@ const Btn = () => {
   const products = [
     {
       image: img1,
-      name: 'UNI CAL PHOS GOLD +',
+      name: 'UNIZINK',
     }, 
     {
       image: img2,
-      name: 'UNILIV',
+      name: 'UNIVIROSAFE',
     }, 
     {
       image: img3,
-      name: 'UNIVIROSAFE',
+      name: 'UNIFAT',
     },  
     {
       image: img4,
-      name: 'UNI-HEAT',
-    }, 
-    {
-      image: img5,
       name: 'UNINEPH',
     }, 
     {
+      image: img5,
+      name: 'UNICAL',
+    }, 
+    {
       image: img6,
-      name: 'UNIFAT',
+      name: 'UNIVIT',
+    },  
+    {
+      image: img7,
+      name: 'LIVGUARD',
+    },  
+    {
+      image: img8,
+      name: 'UNI-HEAT',
     },  
   ];
 
